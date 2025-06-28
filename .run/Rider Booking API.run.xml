@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Rider Booking API" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="22 (2)" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="DB_USERNAME" value="root" />
+      <env name="DB_PASSWORD" value="Hardeymorlah12%" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.tech1971.rider_booking_api.RiderBookingApiApplication" />
+    <module name="rider-booking-api" />
+    <shortenClasspath name="MANIFEST" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
