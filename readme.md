@@ -62,7 +62,7 @@ com.tech1971.rider_booking_api
 
 ### Option 1: Swagger UI
 
-- Visit: `http://localhost:8089/tech1971/api/v1/riders/new_rider/swagger-ui.html`
+- Visit: http://localhost:8089/tech1971/swagger-ui/index.html
 - Test endpoints directly from the browser
 
 ### Option 2: Postman

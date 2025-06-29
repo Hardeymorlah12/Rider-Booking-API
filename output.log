@@ -725,3 +725,278 @@ Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationExceptio
 2025-06-29T10:24:58.966+01:00  INFO 3708 --- [RiderBookingApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-06-29T10:24:59.004+01:00  INFO 3708 --- [RiderBookingApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-06-29T10:24:59.707+01:00  INFO 3708 --- [RiderBookingApi] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-29T10:27:38.295+01:00  INFO 12384 --- [RiderBookingApi] [main] c.t.r.RiderBookingApiApplication         : Starting RiderBookingApiApplication using Java 22.0.1 with PID 12384 (C:\Users\DELL\Desktop\SpringBoot Projects\rider-booking-api\target\classes started by DELL in C:\Users\DELL\Desktop\SpringBoot Projects\rider-booking-api)
+2025-06-29T10:27:38.302+01:00  INFO 12384 --- [RiderBookingApi] [main] c.t.r.RiderBookingApiApplication         : The following 1 profile is active: "dev"
+2025-06-29T10:27:41.549+01:00  INFO 12384 --- [RiderBookingApi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-29T10:27:41.764+01:00  INFO 12384 --- [RiderBookingApi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 175 ms. Found 2 JPA repository interfaces.
+2025-06-29T10:27:43.909+01:00  INFO 12384 --- [RiderBookingApi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-06-29T10:27:43.981+01:00  INFO 12384 --- [RiderBookingApi] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-29T10:27:43.982+01:00  INFO 12384 --- [RiderBookingApi] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-29T10:27:44.131+01:00  INFO 12384 --- [RiderBookingApi] [main] o.a.c.c.C.[.[localhost].[/tech1971]      : Initializing Spring embedded WebApplicationContext
+2025-06-29T10:27:44.132+01:00  INFO 12384 --- [RiderBookingApi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5665 ms
+2025-06-29T10:27:46.702+01:00  INFO 12384 --- [RiderBookingApi] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-29T10:27:46.910+01:00  INFO 12384 --- [RiderBookingApi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-29T10:27:49.621+01:00  INFO 12384 --- [RiderBookingApi] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fea5ee0
+2025-06-29T10:27:49.624+01:00  INFO 12384 --- [RiderBookingApi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-29T10:28:26.876+01:00  INFO 12384 --- [RiderBookingApi] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-29T10:28:28.432+01:00 DEBUG 12384 --- [RiderBookingApi] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 15 mappings in 'requestMappingHandlerMapping'
+2025-06-29T10:28:28.682+01:00 DEBUG 12384 --- [RiderBookingApi] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-06-29T10:28:28.763+01:00 DEBUG 12384 --- [RiderBookingApi] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-06-29T10:28:28.906+01:00 DEBUG 12384 --- [RiderBookingApi] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-06-29T10:28:29.369+01:00  INFO 12384 --- [RiderBookingApi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/tech1971'
+2025-06-29T10:28:29.391+01:00  INFO 12384 --- [RiderBookingApi] [main] c.t.r.RiderBookingApiApplication         : Started RiderBookingApiApplication in 55.091 seconds (process running for 60.218)
+2025-06-29T11:36:49.441+01:00  INFO 9492 --- [RiderBookingApi] [main] c.t.r.RiderBookingApiApplication         : Starting RiderBookingApiApplication using Java 22.0.1 with PID 9492 (C:\Users\DELL\Desktop\SpringBoot Projects\rider-booking-api\target\classes started by DELL in C:\Users\DELL\Desktop\SpringBoot Projects\rider-booking-api)
+2025-06-29T11:36:49.464+01:00  INFO 9492 --- [RiderBookingApi] [main] c.t.r.RiderBookingApiApplication         : The following 1 profile is active: "dev"
+2025-06-29T11:36:53.580+01:00  INFO 9492 --- [RiderBookingApi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-29T11:36:53.772+01:00  INFO 9492 --- [RiderBookingApi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 2 JPA repository interfaces.
+2025-06-29T11:36:57.540+01:00  INFO 9492 --- [RiderBookingApi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-06-29T11:36:57.804+01:00  INFO 9492 --- [RiderBookingApi] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-29T11:36:57.807+01:00  INFO 9492 --- [RiderBookingApi] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-29T11:36:58.924+01:00  INFO 9492 --- [RiderBookingApi] [main] o.a.c.c.C.[.[localhost].[/tech1971]      : Initializing Spring embedded WebApplicationContext
+2025-06-29T11:36:58.925+01:00  INFO 9492 --- [RiderBookingApi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9187 ms
+2025-06-29T11:37:18.769+01:00  INFO 9492 --- [RiderBookingApi] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-29T11:37:19.377+01:00  INFO 9492 --- [RiderBookingApi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-29T11:38:18.748+01:00 ERROR 9492 --- [RiderBookingApi] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-06-29T11:38:18.766+01:00 ERROR 9492 --- [RiderBookingApi] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2025-06-29T11:38:18.768+01:00  WARN 9492 --- [RiderBookingApi] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2025-06-29T11:38:18.809+01:00  INFO 9492 --- [RiderBookingApi] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-29T11:38:21.104+01:00  INFO 9492 --- [RiderBookingApi] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-29T11:38:21.264+01:00 ERROR 9492 --- [RiderBookingApi] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.3.jar:3.5.3]
+	at com.tech1971.rider_booking_api.RiderBookingApiApplication.main(RiderBookingApiApplication.java:10) ~[classes/:na]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.8.jar:6.2.8]
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:186) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:408) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	... 30 common frames omitted
+
+2025-06-29T11:40:18.572+01:00  INFO 12344 --- [RiderBookingApi] [main] c.t.r.RiderBookingApiApplication         : Starting RiderBookingApiApplication using Java 22.0.1 with PID 12344 (C:\Users\DELL\Desktop\SpringBoot Projects\rider-booking-api\target\classes started by DELL in C:\Users\DELL\Desktop\SpringBoot Projects\rider-booking-api)
+2025-06-29T11:40:18.576+01:00  INFO 12344 --- [RiderBookingApi] [main] c.t.r.RiderBookingApiApplication         : The following 1 profile is active: "dev"
+2025-06-29T11:40:28.360+01:00  INFO 12344 --- [RiderBookingApi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-29T11:40:28.595+01:00  INFO 12344 --- [RiderBookingApi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 213 ms. Found 2 JPA repository interfaces.
+2025-06-29T11:40:42.829+01:00  INFO 12344 --- [RiderBookingApi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-06-29T11:40:43.791+01:00  INFO 12344 --- [RiderBookingApi] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-29T11:40:43.792+01:00  INFO 12344 --- [RiderBookingApi] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-29T11:40:44.906+01:00  INFO 12344 --- [RiderBookingApi] [main] o.a.c.c.C.[.[localhost].[/tech1971]      : Initializing Spring embedded WebApplicationContext
+2025-06-29T11:40:44.909+01:00  INFO 12344 --- [RiderBookingApi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 25977 ms
+2025-06-29T11:40:53.386+01:00  INFO 12344 --- [RiderBookingApi] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-29T11:40:53.572+01:00  INFO 12344 --- [RiderBookingApi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-29T11:40:56.876+01:00  INFO 12344 --- [RiderBookingApi] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70022d44
+2025-06-29T11:40:56.897+01:00  INFO 12344 --- [RiderBookingApi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-29T11:41:06.774+01:00  INFO 12344 --- [RiderBookingApi] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-29T11:41:10.772+01:00 DEBUG 12344 --- [RiderBookingApi] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 15 mappings in 'requestMappingHandlerMapping'
+2025-06-29T11:41:11.103+01:00 DEBUG 12344 --- [RiderBookingApi] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-06-29T11:41:11.241+01:00 DEBUG 12344 --- [RiderBookingApi] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-06-29T11:41:11.400+01:00 DEBUG 12344 --- [RiderBookingApi] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-06-29T11:41:12.382+01:00  INFO 12344 --- [RiderBookingApi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/tech1971'
+2025-06-29T11:41:12.411+01:00  INFO 12344 --- [RiderBookingApi] [main] c.t.r.RiderBookingApiApplication         : Started RiderBookingApiApplication in 64.884 seconds (process running for 84.538)
+2025-06-29T11:47:45.587+01:00  INFO 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.a.c.c.C.[.[localhost].[/tech1971]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-29T11:47:45.589+01:00  INFO 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-29T11:47:45.591+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-06-29T11:47:45.592+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-06-29T11:47:45.593+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-06-29T11:47:45.597+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@325a781c
+2025-06-29T11:47:45.599+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@212be8c
+2025-06-29T11:47:45.601+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-06-29T11:47:45.605+01:00  INFO 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2025-06-29T11:47:45.904+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/booking/swagger-ui/index.html", parameters={}
+2025-06-29T11:47:46.562+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T11:47:46.999+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T11:47:47.163+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource booking/swagger-ui/index.html.]
+2025-06-29T11:47:47.165+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T11:47:47.580+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T11:47:47.584+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T11:47:48.025+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T11:47:48.120+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T11:48:47.370+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/booking/api/v1/riders/new_rider/swagger-ui/index.html", parameters={}
+2025-06-29T11:48:47.374+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T11:48:47.379+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T11:48:47.384+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource booking/api/v1/riders/new_rider/swagger-ui/index.html.]
+2025-06-29T11:48:47.384+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T11:48:47.385+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T11:48:47.386+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T11:48:47.390+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T11:48:47.391+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T11:48:55.532+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/booking/api/v1/riders/new_rider/swagger-ui/index.html", parameters={}
+2025-06-29T11:48:55.535+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T11:48:55.556+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T11:48:55.558+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource booking/api/v1/riders/new_rider/swagger-ui/index.html.]
+2025-06-29T11:48:55.558+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T11:48:55.559+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T11:48:55.560+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T11:48:55.564+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T11:48:55.564+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T11:49:03.326+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/booking/api/v1/riders/new_rider/swagger-ui/index.html", parameters={}
+2025-06-29T11:49:03.328+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T11:49:03.332+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T11:49:03.333+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource booking/api/v1/riders/new_rider/swagger-ui/index.html.]
+2025-06-29T11:49:03.334+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T11:49:03.335+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T11:49:03.336+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T11:49:03.339+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T11:49:03.340+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T11:49:04.931+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/booking/api/v1/riders/new_rider/swagger-ui/index.html", parameters={}
+2025-06-29T11:49:04.932+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T11:49:04.934+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T11:49:04.960+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource booking/api/v1/riders/new_rider/swagger-ui/index.html.]
+2025-06-29T11:49:04.960+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T11:49:04.961+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T11:49:04.962+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T11:49:04.965+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T11:49:04.965+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T11:49:09.444+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/booking/api/v1/riders/new_rider/swagger-ui/index.html", parameters={}
+2025-06-29T11:49:09.446+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T11:49:09.450+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T11:49:09.454+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource booking/api/v1/riders/new_rider/swagger-ui/index.html.]
+2025-06-29T11:49:09.454+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T11:49:09.455+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T11:49:09.456+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T11:49:09.460+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T11:49:09.461+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T11:49:29.642+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/booking/api/v1/riders/new_rider/swagger-ui/index.html", parameters={}
+2025-06-29T11:49:29.645+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T11:49:29.652+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T11:49:29.671+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource booking/api/v1/riders/new_rider/swagger-ui/index.html.]
+2025-06-29T11:49:29.671+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T11:49:29.673+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T11:49:29.677+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T11:49:29.688+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T11:49:29.689+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T11:51:04.768+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/api/v1/riders/new_rider/swagger-ui.html", parameters={}
+2025-06-29T11:51:04.773+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T11:51:04.779+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T11:51:04.781+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/riders/new_rider/swagger-ui.html.]
+2025-06-29T11:51:04.782+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T11:51:04.784+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T11:51:04.785+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T11:51:04.788+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T11:51:04.789+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T11:53:27.306+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/api/v1/riders/new_rider/swagger-ui.html", parameters={}
+2025-06-29T11:53:27.313+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T11:53:27.342+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T11:53:27.344+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/riders/new_rider/swagger-ui.html.]
+2025-06-29T11:53:27.344+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T11:53:27.344+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T11:53:27.345+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T11:53:27.349+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T11:53:27.349+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:02:45.847+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/api/v1/riders/new_rider/swagger-ui/index.html", parameters={}
+2025-06-29T12:02:53.836+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T12:02:55.714+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T12:02:58.376+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/riders/new_rider/swagger-ui/index.html.]
+2025-06-29T12:02:58.627+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T12:03:00.122+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T12:03:00.331+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T12:03:01.746+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T12:03:01.921+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:04:48.474+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/api/v1/riders/new_rider/swagger-ui.html", parameters={}
+2025-06-29T12:04:48.499+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T12:04:48.590+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T12:04:48.725+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/riders/new_rider/swagger-ui.html.]
+2025-06-29T12:04:48.727+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T12:04:48.761+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T12:04:48.764+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T12:04:49.136+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T12:04:49.153+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:04:54.301+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/api/v1/riders/new_rider/swagger-ui.html", parameters={}
+2025-06-29T12:04:54.356+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T12:04:54.358+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T12:04:54.359+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/riders/new_rider/swagger-ui.html.]
+2025-06-29T12:04:54.359+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T12:04:54.365+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T12:04:54.366+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T12:04:54.702+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T12:04:54.704+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:05:28.396+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/api/v1/riders/new_rider/swagger-ui.html", parameters={}
+2025-06-29T12:05:28.399+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T12:05:28.404+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T12:05:28.428+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/riders/new_rider/swagger-ui.html.]
+2025-06-29T12:05:28.428+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T12:05:28.481+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T12:05:28.482+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T12:05:28.487+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T12:05:28.488+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:07:32.596+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/api/v1/riders/new_rider/swagger-ui.html", parameters={}
+2025-06-29T12:07:32.599+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T12:07:32.601+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T12:07:32.602+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/riders/new_rider/swagger-ui.html.]
+2025-06-29T12:07:32.604+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T12:07:32.606+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T12:07:32.607+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-06-29T12:07:32.756+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-29T12:07:32.757+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:14:23.472+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/swagger-ui/index.html", parameters={}
+2025-06-29T12:14:23.585+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-06-29T12:14:25.813+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:14:26.210+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/swagger-ui/swagger-ui.css", parameters={}
+2025-06-29T12:14:26.213+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-06-29T12:14:26.220+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/swagger-ui/index.css", parameters={}
+2025-06-29T12:14:26.222+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-06-29T12:14:26.268+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:14:26.310+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/swagger-ui/swagger-ui-bundle.js", parameters={}
+2025-06-29T12:14:26.311+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-06-29T12:14:26.320+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/swagger-ui/swagger-initializer.js", parameters={}
+2025-06-29T12:14:26.322+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-06-29T12:14:26.320+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2025-06-29T12:14:26.468+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-06-29T12:14:26.646+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:14:26.855+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:14:27.660+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:14:33.783+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:14:34.385+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/swagger-ui/favicon-32x32.png", parameters={}
+2025-06-29T12:14:34.420+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/v3/api-docs/swagger-config", parameters={}
+2025-06-29T12:14:34.458+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-06-29T12:14:34.464+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:14:34.508+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2025-06-29T12:14:34.929+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2025-06-29T12:14:34.979+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/tech1971/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8089/tech1971/sw (truncated)...]
+2025-06-29T12:14:35.345+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:14:35.570+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/v3/api-docs", parameters={}
+2025-06-29T12:14:35.572+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2025-06-29T12:14:49.211+01:00  INFO 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 10159 ms
+2025-06-29T12:14:49.679+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2025-06-29T12:14:49.682+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2025-06-29T12:14:49.685+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
