@@ -30,7 +30,7 @@ import java.util.List;
             booking.setRider(rider);
             Booking saved = bookingRepository.save(booking);
             return ResponseEntity.status(HttpStatus.CREATED)
-                    .body(new GenericResponse<>(true, "Booking created", saved, HttpStatus.get));
+                    .body(new GenericResponse<>(true, "Booking created", saved, HttpStatus.OK.value()));
         }
 
         public ResponseEntity<GenericResponse<Booking>> updateBooking(Long id, Booking updatedBooking) {
@@ -47,19 +47,19 @@ import java.util.List;
             }
 
             Booking saved = bookingRepository.save(existing);
-            return ResponseEntity.ok(new GenericResponse<>(true, "Booking updated", saved));
+            return ResponseEntity.ok(new GenericResponse<>(true, "Booking updated", saved, HttpStatus.OK.value()));
         }
 
         public ResponseEntity<GenericResponse<Void>> deleteBooking(Long id) {
             Booking booking = bookingRepository.findById(id)
                     .orElseThrow(() -> new ResourceNotFoundException("Booking not found with ID: " + id));
             bookingRepository.delete(booking);
-            return ResponseEntity.ok(new GenericResponse<>(true, "Booking deleted", null));
+            return ResponseEntity.ok(new GenericResponse<>(true, "Booking deleted", null, HttpStatus.OK.value() ));
         }
 
         public ResponseEntity<GenericResponse<List<Booking>>> getAllBookings() {
             List<Booking> bookings = bookingRepository.findAll();
-            return ResponseEntity.ok(new GenericResponse<>(true, "All bookings", bookings));
+            return ResponseEntity.ok(new GenericResponse<>(true, "All bookings", bookings, HttpStatus.OK.value()));
         }
     }
 

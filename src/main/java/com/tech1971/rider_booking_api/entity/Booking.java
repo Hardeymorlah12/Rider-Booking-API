@@ -24,10 +24,7 @@ public class Booking {
         @NotBlank(message = "Drop-off location is required")
         private String dropOffLocation;
 
-
-        @Setter
-        @ManyToOne
-        @UniqueConstraint(name = )
+        @Column(unique = true)
         @JoinColumn(name = "rider_id", nullable = false)
         private Rider rider;
 
