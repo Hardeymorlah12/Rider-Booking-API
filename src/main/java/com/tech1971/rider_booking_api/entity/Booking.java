@@ -24,7 +24,11 @@ public class Booking {
         @NotBlank(message = "Drop-off location is required")
         private String dropOffLocation;
 
-        @Column(unique = true)
+//        @Column(unique = true)
+//        @JoinColumn(name = "rider_id", nullable = false)
+//        private Rider rider;
+
+        @ManyToOne(fetch = FetchType.LAZY) // or EAGER
         @JoinColumn(name = "rider_id", nullable = false)
         private Rider rider;
 
