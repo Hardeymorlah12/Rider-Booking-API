@@ -68,6 +68,7 @@ com.tech1971.rider_booking_api
 ### Option 2: Postman
 
 - Import Postman Collection (provided in submission)
+https://technologies-5361.postman.co/workspace/1971Tech~d0a387a8-0142-49ed-9073-50624486a40c/collection/38177792-2573f66e-4424-4abd-9dca-a0d7207f0cb8?action=share&creator=38177792
 
 ---
 

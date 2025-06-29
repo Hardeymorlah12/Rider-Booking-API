@@ -28,7 +28,7 @@ import java.util.List;
             return bookingService.createBooking(booking);
         }
 
-        @Operation(summary = "Update an existing booking")
+        @Operation(summary = "Update an    existing booking")
         @PutMapping("/update/{id}")
         public ResponseEntity<GenericResponse<Booking>> updateBooking(@PathVariable Long id, @Valid @RequestBody Booking booking) {
             return bookingService.updateBooking(id, booking);

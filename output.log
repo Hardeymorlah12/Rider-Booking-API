@@ -1000,3 +1000,216 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 2025-06-29T12:14:49.679+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
 2025-06-29T12:14:49.682+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
 2025-06-29T12:14:49.685+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:20:36.043+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/tech1971/api/v1/bookings/create", parameters={}
+2025-06-29T12:20:36.044+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.BookingController#createBooking(Booking)
+2025-06-29T12:20:36.653+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Booking@5ea815df]
+2025-06-29T12:20:44.456+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [com.tech1971.rider_booking_api.exception.ResourceNotFoundException: Rider not found with ID: 1]
+2025-06-29T12:20:44.458+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T12:20:44.498+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/tech1971/error", parameters={}
+2025-06-29T12:20:44.499+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-06-29T12:20:44.575+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:20:44.603+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 29 12:20:44 WAT 2025, status=404, error=Not Found, path=/tech1971/api/v1/bookings (truncated)...]
+2025-06-29T12:20:44.782+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:22:26.276+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/tech1971/api/v1/bookings/create", parameters={}
+2025-06-29T12:22:26.281+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.BookingController#createBooking(Booking)
+2025-06-29T12:22:26.284+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Booking@60a4ceb1]
+2025-06-29T12:22:26.378+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [com.tech1971.rider_booking_api.exception.ResourceNotFoundException: Rider not found with ID: 1]
+2025-06-29T12:22:26.379+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T12:22:26.380+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/tech1971/error", parameters={}
+2025-06-29T12:22:26.381+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-06-29T12:22:26.383+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:22:26.383+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 29 12:22:26 WAT 2025, status=404, error=Not Found, path=/tech1971/api/v1/bookings (truncated)...]
+2025-06-29T12:22:26.403+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:26:57.060+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/tech1971/api/v1/riders/new_rider", parameters={}
+2025-06-29T12:26:57.061+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.RiderController#createRider(Rider)
+2025-06-29T12:26:57.065+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Rider@40176e58]
+2025-06-29T12:27:00.345+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [com.tech1971.rider_booking_api.entity.Rider#0]
+2025-06-29T12:27:00.465+01:00 ERROR 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/tech1971] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [com.tech1971.rider_booking_api.entity.Rider#0]] with root cause
+
+org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [com.tech1971.rider_booking_api.entity.Rider#0]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:426) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:214) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:152) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:136) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:89) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:854) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:840) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320) ~[spring-orm-6.2.8.jar:6.2.8]
+	at jdk.proxy2/jdk.proxy2.$Proxy129.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:656) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:734) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.8.jar:6.2.8]
+	at jdk.proxy2/jdk.proxy2.$Proxy135.save(Unknown Source) ~[na:na]
+	at com.tech1971.rider_booking_api.service.RiderService.createRider(RiderService.java:23) ~[classes/:na]
+	at com.tech1971.rider_booking_api.controller.RiderController.createRider(RiderController.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2025-06-29T12:27:00.742+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/tech1971/error", parameters={}
+2025-06-29T12:27:00.745+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-06-29T12:27:00.751+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:27:00.752+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 29 12:27:00 WAT 2025, status=500, error=Internal Server Error, path=/tech1971/api (truncated)...]
+2025-06-29T12:27:00.754+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2025-06-29T12:28:30.816+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/tech1971/api/v1/bookings/create", parameters={}
+2025-06-29T12:28:30.818+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.BookingController#createBooking(Booking)
+2025-06-29T12:28:30.825+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Booking@522d82ca]
+2025-06-29T12:28:30.836+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [com.tech1971.rider_booking_api.exception.ResourceNotFoundException: Rider not found with ID: 1]
+2025-06-29T12:28:30.836+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T12:28:30.837+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/tech1971/error", parameters={}
+2025-06-29T12:28:30.838+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-06-29T12:28:30.840+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:28:30.841+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 29 12:28:30 WAT 2025, status=404, error=Not Found, path=/tech1971/api/v1/bookings (truncated)...]
+2025-06-29T12:28:30.842+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:28:46.946+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/tech1971/api/v1/bookings/create", parameters={}
+2025-06-29T12:28:46.947+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.BookingController#createBooking(Booking)
+2025-06-29T12:28:46.954+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Booking@2214c9a9]
+2025-06-29T12:28:48.385+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [com.tech1971.rider_booking_api.exception.ResourceNotFoundException: Rider not found with ID: 1]
+2025-06-29T12:28:48.386+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T12:28:48.387+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/tech1971/error", parameters={}
+2025-06-29T12:28:48.388+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-06-29T12:28:48.389+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:28:48.390+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 29 12:28:48 WAT 2025, status=404, error=Not Found, path=/tech1971/api/v1/bookings (truncated)...]
+2025-06-29T12:28:48.392+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:39:16.649+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/tech1971/api/v1/riders/new_rider", parameters={}
+2025-06-29T12:39:16.708+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.RiderController#createRider(Rider)
+2025-06-29T12:39:17.746+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Rider@62f60c1d]
+2025-06-29T12:40:11.362+01:00  WARN 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.tech1971.rider_booking_api.models.GenericResponse<com.tech1971.rider_booking_api.entity.Rider>> com.tech1971.rider_booking_api.controller.RiderController.createRider(com.tech1971.rider_booking_api.entity.Rider) with 2 errors: [Field error in object 'rider' on field 'name': rejected value [null]; codes [NotBlank.rider.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [rider.name,name]; arguments []; default message [name]]; default message [Name is required]] [Field error in object 'rider' on field 'phoneNumber': rejected value [null]; codes [NotBlank.rider.phoneNumber,NotBlank.phoneNumber,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [rider.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber]]; default message [Phone number is required]] ]
+2025-06-29T12:40:11.412+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-06-29T12:40:11.499+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/tech1971/error", parameters={}
+2025-06-29T12:40:11.514+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-06-29T12:40:13.133+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:40:13.249+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 29 12:40:11 WAT 2025, status=400, error=Bad Request, path=/tech1971/api/v1/riders (truncated)...]
+2025-06-29T12:40:13.683+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2025-06-29T12:43:35.259+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/tech1971/api/v1/riders/new_rider", parameters={}
+2025-06-29T12:43:35.402+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.RiderController#createRider(Rider)
+2025-06-29T12:43:35.404+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Rider@7a2a1ac7]
+2025-06-29T12:43:36.605+01:00  WARN 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.tech1971.rider_booking_api.models.GenericResponse<com.tech1971.rider_booking_api.entity.Rider>> com.tech1971.rider_booking_api.controller.RiderController.createRider(com.tech1971.rider_booking_api.entity.Rider) with 2 errors: [Field error in object 'rider' on field 'phoneNumber': rejected value [null]; codes [NotBlank.rider.phoneNumber,NotBlank.phoneNumber,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [rider.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber]]; default message [Phone number is required]] [Field error in object 'rider' on field 'name': rejected value [null]; codes [NotBlank.rider.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [rider.name,name]; arguments []; default message [name]]; default message [Name is required]] ]
+2025-06-29T12:43:36.606+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-06-29T12:43:36.608+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/tech1971/error", parameters={}
+2025-06-29T12:43:36.688+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-06-29T12:43:36.689+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:43:37.045+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 29 12:43:36 WAT 2025, status=400, error=Bad Request, path=/tech1971/api/v1/riders (truncated)...]
+2025-06-29T12:43:37.637+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2025-06-29T12:45:20.457+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/tech1971/api/v1/riders/new_rider", parameters={}
+2025-06-29T12:45:20.469+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.RiderController#createRider(Rider)
+2025-06-29T12:45:20.510+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Rider@43911b78]
+2025-06-29T12:47:05.807+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:47:05.863+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.tech1971.rider_booking_api.models.GenericResponse@bd367e5]
+2025-06-29T12:47:06.141+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-06-29T12:48:58.746+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/tech1971/api/v1/riders/new_rider", parameters={}
+2025-06-29T12:48:58.756+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.RiderController#createRider(Rider)
+2025-06-29T12:48:58.778+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Rider@4803e589]
+2025-06-29T12:48:58.780+01:00  WARN 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.tech1971.rider_booking_api.models.GenericResponse<com.tech1971.rider_booking_api.entity.Rider>> com.tech1971.rider_booking_api.controller.RiderController.createRider(com.tech1971.rider_booking_api.entity.Rider): [Field error in object 'rider' on field 'phoneNumber': rejected value []; codes [NotBlank.rider.phoneNumber,NotBlank.phoneNumber,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [rider.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber]]; default message [Phone number is required]] ]
+2025-06-29T12:48:58.801+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-06-29T12:48:58.802+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/tech1971/error", parameters={}
+2025-06-29T12:48:58.803+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-06-29T12:48:58.839+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:48:58.840+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 29 12:48:58 WAT 2025, status=400, error=Bad Request, path=/tech1971/api/v1/riders (truncated)...]
+2025-06-29T12:48:58.848+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2025-06-29T12:50:33.502+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/api/v1/riders/get/1", parameters={}
+2025-06-29T12:50:33.599+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.RiderController#getRiderById(Long)
+2025-06-29T12:50:36.994+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:50:37.044+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.tech1971.rider_booking_api.models.GenericResponse@44e6f4af]
+2025-06-29T12:50:37.048+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:52:08.006+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/tech1971/api/v1/riders/new_rider", parameters={}
+2025-06-29T12:52:08.010+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.RiderController#createRider(Rider)
+2025-06-29T12:52:08.013+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Rider@2ff5e5f2]
+2025-06-29T12:52:08.958+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:52:08.958+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.tech1971.rider_booking_api.models.GenericResponse@30c0cb6c]
+2025-06-29T12:52:08.961+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-06-29T12:53:15.116+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : DELETE "/tech1971/api/v1/riders/delete/2", parameters={}
+2025-06-29T12:53:15.117+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.RiderController#deleteRider(Long)
+2025-06-29T12:53:22.443+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:53:22.481+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.tech1971.rider_booking_api.models.GenericResponse@4d1ec85f]
+2025-06-29T12:53:22.568+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:55:43.581+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/api/v1/getAll", parameters={}
+2025-06-29T12:55:44.024+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-06-29T12:55:45.388+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-29T12:55:45.444+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/getAll.]
+2025-06-29T12:55:45.444+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-29T12:55:45.445+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/tech1971/error", parameters={}
+2025-06-29T12:55:45.447+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-06-29T12:55:45.462+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:55:45.463+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 29 12:55:45 WAT 2025, status=404, error=Not Found, path=/tech1971/api/v1/getAll}]
+2025-06-29T12:55:45.465+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-29T12:56:07.873+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/tech1971/api/v1/riders/getAll", parameters={}
+2025-06-29T12:56:07.874+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.RiderController#getAllRiders()
+2025-06-29T12:56:22.144+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:56:22.180+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.tech1971.rider_booking_api.models.GenericResponse@4132d43a]
+2025-06-29T12:56:22.412+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-29T12:58:56.598+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : PUT "/tech1971/api/v1/riders/update/1", parameters={}
+2025-06-29T12:58:56.600+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tech1971.rider_booking_api.controller.RiderController#updateRider(Long, Rider)
+2025-06-29T12:58:56.671+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.tech1971.rider_booking_api.entity.Rider@60811165]
+2025-06-29T12:59:01.196+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-06-29T12:59:01.196+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.tech1971.rider_booking_api.models.GenericResponse@1ee8b858]
+2025-06-29T12:59:01.197+01:00 DEBUG 12344 --- [RiderBookingApi] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
